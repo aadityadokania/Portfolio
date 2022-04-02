@@ -1,0 +1,22 @@
+@media screen and (max-width:500px) {
+
+    .resume__card__table_row__left{
+        justify-content: space-evenly;
+    }
+    
+    .resume__card__table_row__line{
+        
+        height: 130px;
+        
+    }
+
+    .resume__card__table_row__line i{
+        top: 60px;
+    }
+
+    .resume__card__table_row__right h3{
+        font-weight: 500;
+        font-size: 16px;
+    }
+
+}

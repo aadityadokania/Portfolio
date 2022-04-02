@@ -1,0 +1,163 @@
+* {
+  padding: 0;
+  margin: 0;
+  
+}
+
+body{
+    background-color: #f6f8fa;
+}
+
+.header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  font-family: sans-serif;
+  box-sizing: border-box;
+  max-width: 900px;
+
+  margin: auto;
+  padding: 1rem;
+border: 1px solid rgba(128, 128, 128, 0.205);
+  background-color: #fafbfc;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header__section_left {
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 1rem;
+}
+
+.header__section_left .header__section_left__identity {
+  display: flex;
+
+  /* background-color: lightgoldenrodyellow; */
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header__section_left .header__section_left__identity__name {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+}
+
+.header__section_left .header__section_left__identity__name h1 {
+  font-weight: 500;
+  margin-right: 0.5rem;
+  font-size: 32px;
+  /* font-size: 2vw; */
+}
+
+.header__section_left .header__section_left__identity__name p {
+  color: gray;
+}
+
+.header__section_left .header__section_left__identity__bio {
+  display: flex;
+}
+
+.header__section_left .header__section_left__identity__bio h3 {
+  font-weight: 100;
+  font-size: 1.2rem;
+  /* font-size: min(14px, 2vw); */
+}
+
+.header__section_left__identity__profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__section_left__identity__profile img{
+    display: none;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    clip-path: circle();
+
+}
+
+/* --------------------------- */
+
+.header__section_left__skills {
+  /* background-color: bisque; */
+  margin: 2rem 0;
+}
+
+.header__section_left__skills ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+ 
+}
+
+.header__section_left__skills li {
+  margin: 0.2rem;
+  padding: 0.2rem 1rem;
+  border: 2px solid rgba(128, 128, 128, 0.219);
+  border-radius: 2rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+}
+
+.header__section_left__skills li img{
+  height: 18px;
+  width: 18px;
+  margin-right: 0.5rem;
+}
+
+/* ---------------------------------- */
+
+.header__section_left__social_location {
+  display: flex;
+  align-items: center;
+  /* background-color: lightgoldenrodyellow; */
+  padding: 1rem 1rem 1rem 0;
+}
+
+.header__section_left__social_location a {
+  text-decoration: none;
+  color: black;
+}
+
+.header__section_left__social_location p {
+  margin-right: 2rem;
+}
+
+.header__section_left__social_location ul {
+  display: flex;
+}
+
+.header__section_left__social_location li {
+  border: 1px solid rgba(0, 0, 0, 0.377);
+  border-radius: 50%;
+  background-color: white;
+  padding: 6px 6px 2px 6px;
+  margin-right: 0.5rem;
+}
+
+/* ======================================== */
+.header__section_right {
+    
+  display: visible;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__section_right img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* ================================================ */

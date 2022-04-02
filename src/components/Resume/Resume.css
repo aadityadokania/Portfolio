@@ -1,0 +1,96 @@
+
+.resume{
+    max-width: 900px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-top: 0px;
+    box-sizing: border-box;
+    background-color: white;
+    margin: auto;
+}
+
+hr{
+    
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.253);
+}
+
+.resume__card{
+/* background-color: aqua; */
+padding: 1rem;
+}
+
+.resume__card__heading{
+    display: flex;
+    margin-bottom: 1rem;
+    
+}
+
+.resume__card__heading h2{
+    font-weight: 500;
+    letter-spacing: 2px;
+    font-size: 1.3rem;
+    
+}
+
+/* ================================= */
+
+.resume__card__table{
+    /* background-color: aqua; */
+}
+
+.resume__card__table_row{
+    /* background-color: yellow; */
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.233);
+    justify-content: center;
+    /* padding: 1rem; */
+}
+
+.resume__card__table_row:hover{
+    background-color: rgba(165, 206, 253, 0.082);
+}
+
+.resume__card__table_row__left{
+    /* background-color: rgb(127, 224, 127); */
+    
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-right: 1rem;
+    min-width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.resume__card__table_row__line{
+    position: relative;
+    width: 1px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.267);
+}
+
+.resume__card__table_row__line i{
+    position: absolute;
+    
+    top: 30px;
+    left: -5px;
+    
+
+    
+    
+}
+
+.resume__card__table_row__right{
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    justify-content: center;
+    padding-left: 1rem;
+
+}
+
+.resume__card__table_row__right h3{
+    font-weight: 500;
+}
